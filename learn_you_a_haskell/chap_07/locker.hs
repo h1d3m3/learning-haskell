@@ -6,7 +6,7 @@ import qualified Data.Map as Map
 -- State is Taken or Free
 data LockerState = Taken | Free deriving (Show, Eq)
 
--- Code is a string
+-- Synonyms
 type Code = String
 type LockerNum = Int
 
